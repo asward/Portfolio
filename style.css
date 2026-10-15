@@ -65,6 +65,29 @@ nav { margin-top: 6px; }
 .card h3 { margin: 10px 12px 2px; }
 .card p { margin: 0 12px 12px; color: var(--muted); font-size: 0.92rem; }
 
+details.fold {
+  margin: 24px 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 8px 12px;
+}
+details.fold summary { cursor: pointer; font-weight: 600; }
+details.fold[open] summary { margin-bottom: 8px; }
+
+.hobby {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  align-items: start;
+  margin: 20px 0;
+}
+.hobby img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: 6px; }
+.hobby h3 { margin-top: 0; }
+.hobby p { margin: 4px 0 0; }
+@media (max-width: 520px) {
+  .hobby { grid-template-columns: 1fr; }
+}
+
 img.hero { display: block; width: 100%; height: auto; border-radius: 6px; margin: 12px 0; }
 nav a { margin-right: 16px; }
 nav a[aria-current="page"] { color: var(--fg); font-weight: 600; text-decoration: none; }

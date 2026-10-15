@@ -6,6 +6,7 @@ Personal portfolio site for Andrew Ward. Plain static HTML and one stylesheet; n
 - `projects/index.html` – project cards; `projects/<name>/` – one folder per project (page + images)
 - `resume.html` / `Resume.pdf` – resume
 - `skills.html` – full skills list
+- `about.html` – about page; photos in `img/about/`
 
 ## Publish
 

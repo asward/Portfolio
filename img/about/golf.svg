@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="400" height="300">
+  <rect width="400" height="300" fill="#d9dde3"/>
+  <text x="200" y="145" font-family="system-ui, sans-serif" font-size="30" fill="#4a4f57" text-anchor="middle">Golf</text>
+  <text x="200" y="182" font-family="system-ui, sans-serif" font-size="17" fill="#6b7079" text-anchor="middle">photo placeholder</text>
+</svg>
