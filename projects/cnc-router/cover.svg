@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#d9dde3"/>
+  <text x="400" y="240" font-family="system-ui, sans-serif" font-size="40" fill="#4a4f57" text-anchor="middle">Home-built CNC router</text>
+  <text x="400" y="290" font-family="system-ui, sans-serif" font-size="22" fill="#6b7079" text-anchor="middle">photo placeholder</text>
+</svg>

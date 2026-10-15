@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PumpkinHead · Andrew Ward</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+  <header>
+    <a class="name" href="../../index.html">Andrew Ward</a>
+    <nav>
+      <a href="../../index.html">Home</a>
+      <a href="../../projects/index.html" aria-current="page">Projects</a>
+      <a href="../../resume.html">Resume</a>
+      <a href="../../skills.html">Skills</a>
+    </nav>
+  </header>
+
+  <main>
+    <p class="meta"><a href="../index.html">← Projects</a></p>
+    <h1>PumpkinHead (2026)</h1>
+    <p class="meta">Raspberry Pi · Python · motor control · audio DSP · <a href="https://github.com/asward/PumpkinHeadServer">GitHub</a></p>
+    <img class="hero" src="cover.svg" alt="PumpkinHead">
+    <p>An animatronic pumpkin with a browser-based control station. The Pi drives PWM-dimmed LED eyes, an H-bridge jaw with a center-position switch, and a stepper-driven candy dispenser on a separate four-axis motor board over a tagged serial protocol. The operator sees and hears through the pumpkin's camera and talks through it with a real-time voice changer and syllable-timed lip-sync.</p>
+    <p>Built as an experiment in ARP 4754-style development: system and interface definition first, then requirements, then implementation and verification. Safety behavior is specified, not improvised: latched E-stop, a host watchdog that halts the motors if the Pi dies, and max-on cutoffs for stuck outputs. Every hardware dependency has a simulated backend, so the system runs and tests without hardware. Implementation used Claude as a tool, with requirements and tests as the check on its output.</p>
+
+    <!-- More photos: put them in this folder and add <img src="name.jpg" alt="..."> here. -->
+  </main>
+
+  <footer>Andrew Ward</footer>
+</body>
+</html>

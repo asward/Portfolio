@@ -40,7 +40,32 @@ header .name {
   text-decoration: none;
 }
 
+header .contact { color: var(--muted); margin-left: 6px; }
+
 nav { margin-top: 6px; }
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 16px 0 24px;
+}
+
+.card {
+  display: block;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  overflow: hidden;
+  color: var(--fg);
+  text-decoration: none;
+}
+
+.card:hover { border-color: var(--link); }
+.card img { display: block; width: 100%; aspect-ratio: 8 / 5; object-fit: cover; }
+.card h3 { margin: 10px 12px 2px; }
+.card p { margin: 0 12px 12px; color: var(--muted); font-size: 0.92rem; }
+
+img.hero { display: block; width: 100%; height: auto; border-radius: 6px; margin: 12px 0; }
 nav a { margin-right: 16px; }
 nav a[aria-current="page"] { color: var(--fg); font-weight: 600; text-decoration: none; }
 
