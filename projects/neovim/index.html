@@ -1,33 +1,54 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Neovim tooling · Andrew Ward</title>
-  <link rel="stylesheet" href="../../style.css">
-</head>
-<body>
-  <header>
-    <a class="name" href="../../index.html">Andrew Ward</a>
-    <nav>
-      <a href="../../index.html">Home</a>
-      <a href="../../projects/index.html" aria-current="page">Projects</a>
-      <a href="../../resume.html">Resume</a>
-      <a href="../../skills.html">Skills</a>
-      <a href="../../about.html">About</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Neovim tooling · Andrew Ward</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="name" href="../../index.html">Andrew Ward</a>
+      <nav>
+        <a href="../../index.html">Home</a>
+        <a href="../../projects/index.html" aria-current="page">Projects</a>
+        <a href="../../resume.html">Resume</a>
+        <a href="../../skills.html">Skills</a>
+        <a href="../../about.html">About</a>
+      </nav>
+    </header>
 
-  <main>
-    <p class="meta"><a href="../index.html">← Projects</a></p>
-    <h1>Neovim tooling</h1>
-    <p class="meta">Lua · <a href="https://github.com/asward/scholar.nvim">scholar.nvim</a> · <a href="https://github.com/asward/workspace-config.nvim">workspace-config.nvim</a></p>
-    <img class="hero" src="cover.svg" alt="Neovim tooling">
-    <p>A plugin for note-taking on scholarly articles, and per-workspace LSP configuration.</p>
+    <main>
+      <p class="meta"><a href="../index.html">← Projects</a></p>
+      <h1>Neovim tooling</h1>
+      <p class="meta">
+        Lua ·
+        <a href="https://github.com/asward/scholar.nvim">scholar.nvim</a> ·
+        <a href="https://github.com/asward/workspace-config.nvim"
+          >workspace-config.nvim</a
+        >
+      </p>
+      <img src="cover.webp" alt="Neovim tooling" />
 
-    <!-- More photos: put them in this folder and add <img src="name.jpg" alt="..."> here. -->
-  </main>
+      <p>
+        scholar.nvim is a Neovim plugin for taking notes on academic papers. You
+        select a DOI in the editor, and it pulls the paper's title, authors,
+        journal, year and full reference list from CrossRef. Then it creates a
+        Markdown note from a template you can customize. I built it so reading
+        papers and keeping notes on them could happen in the editor I already
+        use, without copying citation details by hand.
+      </p>
 
-  <footer>Andrew Ward</footer>
-</body>
+      <p>
+        workspace-config.nvim gives each project its own Neovim setup through a
+        .nvimrc.lua file in the project root. It installs language servers
+        through Mason and applies project-specific LSP settings. It can also set
+        up debug adapters, filetype options, keymaps and commands. I built it
+        because one global config never fit every project, and I wanted each
+        repo to carry its own editor, LSP and debugging setup.
+      </p>
+    </main>
+
+    <footer>Andrew Ward</footer>
+  </body>
 </html>

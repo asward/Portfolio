@@ -1,34 +1,56 @@
 <!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Split keyboard PCB · Andrew Ward</title>
-  <link rel="stylesheet" href="../../style.css">
-</head>
-<body>
-  <header>
-    <a class="name" href="../../index.html">Andrew Ward</a>
-    <nav>
-      <a href="../../index.html">Home</a>
-      <a href="../../projects/index.html" aria-current="page">Projects</a>
-      <a href="../../resume.html">Resume</a>
-      <a href="../../skills.html">Skills</a>
-      <a href="../../about.html">About</a>
-    </nav>
-  </header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Split keyboard PCB · Andrew Ward</title>
+    <link rel="stylesheet" href="../../style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="name" href="../../index.html">Andrew Ward</a>
+      <nav>
+        <a href="../../index.html">Home</a>
+        <a href="../../projects/index.html" aria-current="page">Projects</a>
+        <a href="../../resume.html">Resume</a>
+        <a href="../../skills.html">Skills</a>
+        <a href="../../about.html">About</a>
+      </nav>
+    </header>
 
-  <main>
-    <p class="meta"><a href="../index.html">← Projects</a></p>
-    <h1>Split keyboard PCB (in progress)</h1>
-    <p class="meta">PCB design</p>
-    <img class="hero" src="cover.svg" alt="Split keyboard PCB">
-    <p>Custom PCB for a split mechanical keyboard.</p>
-    <!-- Add: MCU, matrix/diode layout, ECAD tool, status. -->
+    <main>
+      <p class="meta"><a href="../index.html">← Projects</a></p>
+      <h1>Split keyboard PCB (in progress)</h1>
+      <p class="meta">PCB design</p>
+      <img class="hero" src="3d.png" alt="Split keyboard PCB" />
+      <p>Custom PCB for a split mechanical keyboard.</p>
 
-    <!-- More photos: put them in this folder and add <img src="name.jpg" alt="..."> here. -->
-  </main>
+      <p>
+        This whole project started with one key: Escape. My store-bought
+        keyboard put it somewhere awkward, and after enough stretches across the
+        board I decided to build my own split keyboard with Escape exactly where
+        I wanted it.
+      </p>
 
-  <footer>Andrew Ward</footer>
-</body>
+      <p>
+        I designed the PCB schematic and layout in KiCad, modeled the case in
+        Onshape, and run the board on ZMK firmware. ZMK makes the split wireless
+        and lets me remap any key, but the real fix is in the hardware: the
+        physical layout is built around my hands instead of a standard row
+        stagger.
+      </p>
+
+      <figure>
+        <img src="schem.png" alt="KiCad schematic for the split keyboard" />
+        <figcaption>The keyboard schematic in KiCad.</figcaption>
+      </figure>
+
+      <p>
+        Over-engineered for one key? Probably. But Escape now lands right under
+        my finger, and that was the point.
+      </p>
+    </main>
+
+    <footer>Andrew Ward</footer>
+  </body>
 </html>
